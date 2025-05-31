@@ -7,7 +7,7 @@ response = requests.post(
     json={
         'model': 'llama3',
         'prompt': prompt,
-        'stream': False  # 🛠️ Important: disable streaming to get full JSON
+        'stream': False 
     }
 )
 
